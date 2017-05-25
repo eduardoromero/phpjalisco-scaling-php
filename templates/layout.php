@@ -10,6 +10,7 @@
     <title>PHP Jalisco - Scaling PHP Example</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
 
 
@@ -25,10 +26,7 @@
         .main.container {
             margin-top: 7em;
             min-height: 40vh !important;
-        }
-
-        .wireframe {
-            margin-top: 2em;
+            margin-bottom: 7em;
         }
 
         .ui.footer.segment {
@@ -52,7 +50,7 @@
     </div>
 </div>
 
-<div class="ui main text container">
+<div class="ui main container">
     <?= $this->section('content'); ?>
 </div>
 
