@@ -22,6 +22,7 @@ WORKDIR "/app"
 EXPOSE 80
 
 # install deps
-CMD ["composer", "install"]
+RUN cd /app && \
+    composer install --no-interaction
 
 CMD ["supervisord"]
