@@ -24,9 +24,9 @@
         }
 
         .main.container {
-            margin-top: 7em;
+            margin-top: 5em;
             min-height: 40vh !important;
-            margin-bottom: 7em;
+            margin-bottom: 12em;
         }
 
         .ui.footer.segment {
